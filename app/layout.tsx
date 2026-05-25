@@ -62,8 +62,8 @@ export const metadata: Metadata = {
     images: ['/segecha_hero_truck.png'],
   },
   icons: {
-    icon: '/favicon-round.png',
-    apple: '/favicon-round.png',
+    icon: '/favicon.ico',
+    apple: '/favicon.ico',
   },
   robots: {
     index: true,
