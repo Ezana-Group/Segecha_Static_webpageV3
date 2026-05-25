@@ -62,7 +62,7 @@ export default function HeroHome() {
       {/* Background Hero Image - Matching About Story Design */}
       <div className="absolute inset-0 z-0 bg-navy-900">
         <Image
-          src="/segecha_hero_truck.png"
+          src="/segecha_hero_truck.jpg"
           alt="Segecha Group heavy-tonnage logistics truck delivering freight across East Africa"
           fill
           className="object-cover opacity-50"

@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     url: 'https://segecha.com',
     images: [
       {
-        url: '/segecha_hero_truck.png',
+        url: '/segecha_hero_truck.jpg',
         width: 1200,
         height: 630,
         alt: 'Segecha Group Logistics Truck',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     site: '@SegechaGroup',
-    images: ['/segecha_hero_truck.png'],
+    images: ['/segecha_hero_truck.jpg'],
   },
   icons: {
     icon: '/favicon.ico',
@@ -88,7 +88,7 @@ const organizationSchema = {
   name: 'Segecha Group Ltd.',
   url: 'https://segecha.com',
   logo: 'https://segecha.com/logo-main.png',
-  image: 'https://segecha.com/segecha_hero_truck.png',
+  image: 'https://segecha.com/segecha_hero_truck.jpg',
   description:
     'Segecha Group Ltd. is a Kenyan logistics and freight company headquartered at Mombasa Port, Port Reitz Road, Mombasa, Kenya. Founded to serve East African trade corridors, the company provides long-haul freight transport, cross-border logistics, GPS fleet tracking, and warehouse distribution services across Kenya, Tanzania, Uganda, Rwanda, and Burundi.',
   address: {
@@ -140,7 +140,7 @@ const localBusinessSchema = {
   url: 'https://segecha.com',
   telephone: '+254715385384',
   priceRange: '$$',
-  image: 'https://segecha.com/segecha_hero_truck.png',
+  image: 'https://segecha.com/segecha_hero_truck.jpg',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Mombasa Port, Shed 12, Port Reitz Road',

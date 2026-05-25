@@ -132,7 +132,7 @@ export default function AboutPage() {
             </div>
             <div className="aspect-square rounded-3xl bg-navy-900 relative overflow-hidden group border border-slate-200">
               <Image
-                src="/segecha_hero_truck.png"
+                src="/segecha_hero_truck.jpg"
                 alt="Segecha Logistics Truck"
                 fill
                 className="object-cover opacity-50 group-hover:scale-105 transition-transform duration-700"

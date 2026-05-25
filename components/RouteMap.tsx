@@ -80,7 +80,7 @@ export default function RouteMap() {
           <div className="relative group">
             <div className="aspect-square relative rounded-[40px] overflow-hidden border border-slate-100 shadow-2xl shadow-navy-900/5">
               <Image
-                src="/segecha_east_africa_map.png"
+                src="/segecha_east_africa_map.jpg"
                 alt="Interactive map of Segecha Group operations in East Africa"
                 fill
                 className="object-cover"

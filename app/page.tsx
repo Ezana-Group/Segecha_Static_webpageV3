@@ -247,10 +247,10 @@ export default function HomePage() {
                     <Image
                       src={
                         i === 0
-                          ? '/segecha_hero_truck.png'
+                          ? '/segecha_hero_truck.jpg'
                           : i === 1
-                          ? '/segecha_fleet_dispatch.png'
-                          : '/segecha_warehouse_ops.png'
+                          ? '/segecha_fleet_dispatch.jpg'
+                          : '/segecha_warehouse_ops.jpg'
                       }
                       alt="Segecha Group Logistics truck on East African highway"
                       fill
