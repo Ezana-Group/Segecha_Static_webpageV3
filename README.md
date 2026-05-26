@@ -94,9 +94,26 @@ The quote form sends data to `/api/quote`. In production, integrate one of:
 ## Deployment
 
 ### Vercel (Recommended)
+
+The codebase is fully optimized for a zero-config, high-performance deployment on Vercel. It automatically switches to a native Next.js application structure on Vercel to support clean server-side routing, high-performance image optimization, and serverless edge functions.
+
+#### Option A: Vercel Dashboard (Easiest & Auto-Updates)
+1. Push your code to a Git repository (e.g. **GitHub**, **GitLab**, or **Bitbucket**).
+2. Sign in to your [Vercel Dashboard](https://vercel.com).
+3. Click **"Add New"** > **"Project"**.
+4. Import your repository.
+5. Vercel will automatically detect **Next.js** as the framework. You do not need to change any build commands or output directories!
+6. (Optional) Add your environment variables (like `NEXT_PUBLIC_GA_ID`) under **Environment Variables**.
+7. Click **"Deploy"**. Every push to your `main` branch will now automatically rebuild and deploy!
+
+#### Option B: Vercel CLI
+If you want to deploy directly from your local terminal:
 ```bash
+# 1. Install the Vercel CLI globally
 npm install -g vercel
-vercel deploy
+
+# 2. Log in and deploy
+vercel --prod
 ```
 
 ### Self-hosted

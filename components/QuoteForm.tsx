@@ -77,15 +77,41 @@ export default function QuoteForm() {
 
   const onSubmit = async (data: FormData) => {
     setLoading(true)
+
+    const GOOGLE_SHEET_URL = 'https://script.google.com/macros/s/AKfycbz6tg1hXT86MKafiVTbLRlriFohjqnsJU_mkxznfuh_g1Ib1UqITZobDKD7ljMUNj3N6w/exec'
+    const FORMSPREE_URL = 'https://formspree.io/f/mzdavqon'
+
+    const payload = {
+      Form: 'Quote Request',
+      Name: data.name,
+      Email: data.email,
+      Phone: data.phone,
+      Company: data.company || 'N/A',
+      Origin: `${data.originCity}, ${data.originCountry}`,
+      Destination: `${data.destinationCity}, ${data.destinationCountry}`,
+      Cargo: data.cargoType,
+      Weight: `${data.weight} kg`,
+      Volume: data.volume ? `${data.volume} m³` : 'N/A',
+      Requirements: data.specialRequirements || 'None',
+      Preferred_Contact: data.contactMethod,
+    }
+
     try {
-      await fetch('/api/quote', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
-      })
+      await Promise.allSettled([
+        fetch(GOOGLE_SHEET_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        }),
+        fetch(FORMSPREE_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(payload),
+        }),
+      ])
       setSubmitted(true)
     } catch {
-      setSubmitted(true) // Show success even on error for demo
+      setSubmitted(true)
     } finally {
       setLoading(false)
     }

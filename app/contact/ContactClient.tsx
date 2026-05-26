@@ -13,16 +13,34 @@ export default function ContactClient() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setLoading(true)
-    
+
     const formData = new FormData(e.currentTarget)
     const data = Object.fromEntries(formData.entries())
 
+    const GOOGLE_SHEET_URL = 'https://script.google.com/macros/s/AKfycbz6tg1hXT86MKafiVTbLRlriFohjqnsJU_mkxznfuh_g1Ib1UqITZobDKD7ljMUNj3N6w/exec'
+    const FORMSPREE_URL = 'https://formspree.io/f/mbdwvaqd'
+
+    const payload = {
+      Form: 'Contact Form',
+      Name: data.name,
+      Email: data.email,
+      Phone: data.phone,
+      Message: data.message,
+    }
+
     try {
-      await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
-      })
+      await Promise.allSettled([
+        fetch(GOOGLE_SHEET_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        }),
+        fetch(FORMSPREE_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(payload),
+        }),
+      ])
       setSubmitted(true)
     } catch (error) {
       console.error('Submission error:', error)
