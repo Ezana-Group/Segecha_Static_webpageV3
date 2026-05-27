@@ -40,8 +40,9 @@ const howToSchema = {
     {
       '@type': 'HowToStep',
       name: 'Submit Request',
-      text: 'Click the "Get Full Quote" button to send your requirements to our dispatch center.',
+      text: 'Click the "Get Full Quote" button to send your requirements to our dispatch centre.',
     },
+
     {
       '@type': 'HowToStep',
       name: 'Receive Quote',

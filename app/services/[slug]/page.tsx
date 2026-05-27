@@ -43,7 +43,7 @@ const SERVICES: ServiceData[] = [
     features: [
       'Loads from 1 ton to 30+ tons',
       'GPS real-time tracking on all trucks',
-      '24/7 dispatch and operations center',
+      '24/7 dispatch and operations centre',
       'Comprehensive cargo insurance',
       'Flatbed, curtainsider, tanker and reefer trucks',
       'Experienced, licensed long-haul drivers',
@@ -130,21 +130,21 @@ const SERVICES: ServiceData[] = [
     title: 'Fleet Tracking & Dispatch Management',
     shortTitle: 'Fleet Tracking & Dispatch',
     description:
-      'Real-time GPS fleet tracking, intelligent route dispatch, and 24/7 operations center support for complete cargo visibility across East Africa.',
+      'Real-time GPS fleet tracking, intelligent route dispatch, and 24/7 operations centre support for complete cargo visibility across East Africa.',
     hero: 'Know Where Your Cargo Is. Always.',
     what: [
-      'Fleet tracking and dispatch management is the technology-driven backbone of modern logistics. It involves equipping trucks with GPS devices that transmit real-time location data, and having a centralized dispatch operations center that monitors all vehicles, coordinates driver communications, and responds to incidents in real time.',
-      "At Segecha Group Ltd., every truck in our fleet is equipped with GPS tracking hardware linked to our dispatch operations center in Mombasa. Our operations team works 24/7, monitoring all active shipments, providing clients with live tracking updates, and proactively managing any delays or route changes. This system has contributed to our 99.8% on-time delivery rate across 7,000+ monthly deliveries.",
+      'Fleet tracking and dispatch management is the technology-driven backbone of modern logistics. It involves equipping trucks with GPS devices that transmit real-time location data, and having a centralised dispatch operations centre that monitors all vehicles, coordinates driver communications, and responds to incidents in real time.',
+      "At Segecha Group Ltd., every truck in our fleet is equipped with GPS tracking hardware linked to our dispatch operations centre in Mombasa. Our operations team works 24/7, monitoring all active shipments, providing clients with live tracking updates, and proactively managing any delays or route changes. This system has contributed to our 99.8% on-time delivery rate across 7,000+ monthly deliveries.",
     ],
     how: [
       { title: 'Vehicle Assignment', desc: 'When your shipment is confirmed, our dispatch system assigns the nearest available appropriate truck and driver to your load.' },
-      { title: 'GPS Activation & Monitoring', desc: 'The truck\'s GPS device activates on departure. Our operations center begins monitoring the vehicle live on our mapping platform.' },
+      { title: 'GPS Activation & Monitoring', desc: 'The truck\'s GPS device activates on departure. Our operations centre begins monitoring the vehicle live on our mapping platform.' },
       { title: 'Real-Time Updates', desc: 'You receive ETA notifications and location updates at key milestones (departure, border crossing, city arrival, delivery).' },
       { title: 'Incident Response', desc: 'If any delay or incident occurs, our dispatch team immediately communicates with the driver and notifies you with a revised ETA and recovery plan.' },
     ],
     features: [
       'Live GPS tracking on all fleet vehicles',
-      '24/7 dispatch operations center',
+      '24/7 dispatch operations centre',
       'Real-time ETA calculations',
       'Automated milestone notifications (SMS/WhatsApp)',
       'Driver communication system',
@@ -171,8 +171,8 @@ const SERVICES: ServiceData[] = [
         answer: 'Our dispatch system analyzes live traffic, road conditions, border wait times, and fuel efficiency to assign the optimal route for each shipment. For cross-border loads, it also factors in border post operational hours.',
       },
       {
-        question: 'What are the GPS tracking hours of the dispatch center?',
-        answer: 'Our dispatch operations center operates 24 hours a day, 7 days a week, 365 days a year. Long-haul transport never stops, and neither does our monitoring — especially for time-critical or cross-border shipments.',
+        question: 'What are the GPS tracking hours of the dispatch centre?',
+        answer: 'Our dispatch operations centre operates 24 hours a day, 7 days a week, 365 days a year. Long-haul transport never stops, and neither does our monitoring — especially for time-critical or cross-border shipments.',
       },
     ],
   },

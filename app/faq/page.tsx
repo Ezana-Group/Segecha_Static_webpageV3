@@ -27,7 +27,7 @@ const faqCategories = [
 
       {
         question: 'Is Segecha Group reliable?',
-        answer: 'Yes. Segecha Group maintains a 99.8% on-time delivery rate across 7,000+ monthly deliveries. We use real-time GPS tracking on every vehicle and operate a 24/7 dispatch center to ensure cargo safety and reliability.',
+        answer: 'Yes. Segecha Group maintains a 99.8% on-time delivery rate across 7,000+ monthly deliveries. We use real-time GPS tracking on every vehicle and operate a 24/7 dispatch centre to ensure cargo safety and reliability.',
       },
       {
         question: 'How many countries does Segecha Group operate in?',
@@ -77,7 +77,7 @@ const faqCategories = [
       },
       {
         question: 'How is cargo tracked in Kenya?',
-        answer: 'Most professional companies use GPS tracking. Segecha equips every truck with live GPS hardware that feeds into our 24/7 Mombasa dispatch center.',
+        answer: 'Most professional companies use GPS tracking. Segecha equips every truck with live GPS hardware that feeds into our 24/7 Mombasa dispatch centre.',
       },
       {
         question: 'What is the Northern Corridor?',

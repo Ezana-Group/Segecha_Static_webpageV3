@@ -105,7 +105,7 @@ const pillars = [
     desc: "We don't just move trucks — we run a technology-driven operation. Every vehicle is GPS-equipped, giving you and our dispatch team live visibility over your cargo 24/7.",
     bullets: [
       'Real-time GPS tracking on all vehicles',
-      '24/7 dispatch operations center',
+      '24/7 dispatch operations centre',
       'Automated ETA notifications',
     ],
     badge: 'Technology',
@@ -402,7 +402,7 @@ export default function HomePage() {
               <p className="text-xs text-slate-400 text-center mt-3">
                 Or{' '}
                 <a
-                  href="https://wa.me/254715385384?text=Hello%20Segecha%20Group%2C%20I%20would%20like%20to%20inquire%20about%20a%20freight%20quote%20for%20shipping%20cargo."
+                  href="https://wa.me/254715385384?text=Hello%20Segecha%20Group%2C%20I%20would%20like%20to%20enquire%20about%20a%20freight%20quote%20for%20shipping%20cargo."
                   className="text-orange-500 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"

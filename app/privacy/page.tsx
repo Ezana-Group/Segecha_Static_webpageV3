@@ -82,8 +82,9 @@ export default function PrivacyPage() {
           <li><strong>Rectification:</strong> Request correction of inaccurate or incomplete data.</li>
           <li><strong>Erasure:</strong> Request deletion of your data under certain conditions.</li>
           <li><strong>Objection:</strong> Object to the processing of your data for specific purposes.</li>
-          <li><strong>Portability:</strong> Request transfer of your data to another organization.</li>
+          <li><strong>Portability:</strong> Request transfer of your data to another organisation.</li>
         </ul>
+
 
         <h2 className="text-2xl font-outfit font-bold text-navy-900 mt-12 mb-6">9. Data Retention</h2>
         <p>

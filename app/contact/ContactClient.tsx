@@ -133,7 +133,7 @@ export default function ContactClient() {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/254715385384?text=Hello%20Segecha%20Group%2C%20I%20am%20on%20your%20contact%20page%20and%20would%20like%20to%20inquire%20about%20cross-border%20transport%20rates."
+                href="https://wa.me/254715385384?text=Hello%20Segecha%20Group%2C%20I%20am%20on%20your%20contact%20page%20and%20would%20like%20to%20enquire%20about%20cross-border%20transport%20rates."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block bg-green-50 border border-green-200 hover:border-green-400 rounded-2xl p-6 transition-all group"
@@ -200,7 +200,7 @@ export default function ContactClient() {
                     <span className="text-slate-400">Closed</span>
                   </div>
                   <div className="mt-3 pt-3 border-t border-slate-100 text-orange-600 text-xs font-semibold">
-                    🟢 24/7 Dispatch Center — always available for active shipments
+                    🟢 24/7 Dispatch Centre — always available for active shipments
                   </div>
                 </div>
 

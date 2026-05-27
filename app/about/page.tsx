@@ -46,7 +46,7 @@ const fleetTypes = [
 
 const team = [
   { role: 'CEO & Founder', name: 'Managing Director', initials: 'MD', bio: 'Over 20 years in East African logistics and freight management.' },
-  { role: 'Head of Operations', name: 'Operations Lead', initials: 'OL', bio: 'Oversees fleet dispatch, route planning, and 24/7 operations center.' },
+  { role: 'Head of Operations', name: 'Operations Lead', initials: 'OL', bio: 'Oversees fleet dispatch, route planning, and 24/7 operations centre.' },
   { role: 'Fleet Manager', name: 'Fleet Manager', initials: 'FM', bio: 'Manages vehicle maintenance, compliance, and driver safety programs.' },
   { role: 'Customer Relations', name: 'Client Services', initials: 'CS', bio: 'Ensures every client gets responsive, professional logistics support.' },
 ]
@@ -124,7 +124,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   Today, Segecha Group operates across the Northern Corridor and key East African trade routes,
-                  with a modern, GPS-equipped fleet, a 24/7 dispatch operations center, and a team of regional
+                  with a modern, GPS-equipped fleet, a 24/7 dispatch operations centre, and a team of regional
                   logistics experts who know every border crossing, every road condition, and every seasonal
                   challenge in East Africa.
                 </p>
