@@ -30,7 +30,7 @@ const routes = [
     services: ['Long-Haul Freight', 'Cross-Border Transport'],
   },
   {
-    id: 'nairobi-dar',
+    id: 'nairobi-dar-es-salaam',
     from: 'Nairobi',
     to: 'Dar es Salaam',
     fromCountry: 'Kenya 🇰🇪',
@@ -66,7 +66,7 @@ const routes = [
     services: ['Cross-Border Transport', 'Long-Haul Freight'],
   },
   {
-    id: 'domestic-kenya',
+    id: 'nairobi-mombasa',
     from: 'Mombasa',
     to: 'Nairobi + Upcountry',
     fromCountry: 'Kenya 🇰🇪',
