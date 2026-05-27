@@ -188,11 +188,11 @@ export default function ContactClient() {
                 <div className="space-y-2 text-sm text-slate-600">
                   <div className="flex justify-between">
                     <span>Monday – Friday</span>
-                    <span className="font-medium text-navy-900">7:00 AM – 6:00 PM</span>
+                    <span className="font-medium text-navy-900">9:00 AM – 5:00 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Saturday</span>
-                    <span className="font-medium text-navy-900">8:00 AM – 2:00 PM</span>
+                    <span className="font-medium text-navy-900">9:00 AM – 2:00 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Sunday</span>
@@ -202,6 +202,7 @@ export default function ContactClient() {
                     🟢 24/7 Dispatch Center — always available for active shipments
                   </div>
                 </div>
+
               </div>
             </div>
 

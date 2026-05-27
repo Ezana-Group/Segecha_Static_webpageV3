@@ -24,10 +24,7 @@ const faqCategories = [
         question: 'What is Segecha Group?',
         answer: 'Segecha Group Ltd. is a Kenyan logistics and freight company headquartered at Mombasa Port, Kenya. Founded to serve East African trade corridors, the company provides long-haul freight, cross-border logistics, and fleet tracking across the EAC region.',
       },
-      {
-        question: 'Where is Segecha Group located?',
-        answer: 'Our headquarters is located at Mombasa Port, Shed 12, Port Reitz Road, Mombasa, Kenya. This strategic location allows us to coordinate directly with port authorities and manage cargo arrival seamlessly.',
-      },
+
       {
         question: 'Is Segecha Group reliable?',
         answer: 'Yes. Segecha Group maintains a 99.8% on-time delivery rate across 7,000+ monthly deliveries. We use real-time GPS tracking on every vehicle and operate a 24/7 dispatch center to ensure cargo safety and reliability.',
