@@ -31,6 +31,5 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: 'https://segecha.com/sitemap.xml',
-    host: 'https://segecha.com',
   }
 }
