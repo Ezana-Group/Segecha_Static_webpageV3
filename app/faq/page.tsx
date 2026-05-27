@@ -195,13 +195,14 @@ export default function FAQPage() {
               Call Us
             </a>
             <a
-              href="https://wa.me/254715385384"
+              href="https://wa.me/254715385384?text=Hello%20Segecha%20Group%2C%20I%20have%20read%20your%20FAQ%20page%20but%20still%20have%20a%20question%20about%20your%20logistics%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#25D366] hover:bg-[#20bc5a] text-white font-outfit font-bold px-6 py-3 rounded-xl transition-all"
             >
               WhatsApp
             </a>
+
             <Link
               href="/contact"
               className="border-2 border-slate-300 hover:border-orange-400 text-navy-900 font-outfit font-bold px-6 py-3 rounded-xl transition-all"

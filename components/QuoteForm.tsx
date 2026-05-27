@@ -164,13 +164,14 @@ export default function QuoteForm() {
           and contact you within <strong>24 hours</strong>.
         </p>
         <a
-          href="https://wa.me/254715385384"
+          href="https://wa.me/254715385384?text=Hello%20Segecha%20Group%2C%20I%20just%20submitted%20a%20freight%20quote%20request%20on%20your%20website%20and%20would%20like%20to%20discuss%20it%20with%20a%20logistics%20specialist."
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 mt-8 bg-[#25D366] hover:bg-[#20bc5a] text-white font-medium px-6 py-3 rounded-xl transition-colors"
         >
           Or Chat on WhatsApp Now
         </a>
+
       </motion.div>
     )
   }

@@ -1,13 +1,14 @@
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/254715385384"
+      href="https://wa.me/254715385384?text=Hello%20Segecha%20Group%2C%20I%20have%20a%20logistics%20and%20transport%20inquiry.%20Can%20you%20help%20me%3F"
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-btn"
       aria-label="Chat with Segecha Group on WhatsApp"
       title="WhatsApp us"
     >
+
       <svg
         className="w-7 h-7 text-white"
         fill="currentColor"

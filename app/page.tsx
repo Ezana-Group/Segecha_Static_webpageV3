@@ -402,7 +402,7 @@ export default function HomePage() {
               <p className="text-xs text-slate-400 text-center mt-3">
                 Or{' '}
                 <a
-                  href="https://wa.me/254715385384"
+                  href="https://wa.me/254715385384?text=Hello%20Segecha%20Group%2C%20I%20would%20like%20to%20inquire%20about%20a%20freight%20quote%20for%20shipping%20cargo."
                   className="text-orange-500 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -410,6 +410,7 @@ export default function HomePage() {
                   message us on WhatsApp
                 </a>
               </p>
+
             </div>
           </div>
         </div>

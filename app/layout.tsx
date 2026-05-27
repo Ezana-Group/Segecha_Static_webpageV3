@@ -156,16 +156,17 @@ const localBusinessSchema = {
     {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-      opens: '07:00',
-      closes: '18:00',
+      opens: '09:00',
+      closes: '17:00',
     },
     {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: 'Saturday',
-      opens: '08:00',
+      opens: '09:00',
       closes: '14:00',
     },
   ],
+
   hasMap: 'https://maps.app.goo.gl/placeholder', // User will replace
   currenciesAccepted: 'KES, USD, UGX, TZS, RWF',
   paymentAccepted: 'Bank Transfer, Mobile Money, Cash',

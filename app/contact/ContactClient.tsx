@@ -133,7 +133,7 @@ export default function ContactClient() {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/254715385384"
+                href="https://wa.me/254715385384?text=Hello%20Segecha%20Group%2C%20I%20am%20on%20your%20contact%20page%20and%20would%20like%20to%20inquire%20about%20cross-border%20transport%20rates."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block bg-green-50 border border-green-200 hover:border-green-400 rounded-2xl p-6 transition-all group"
@@ -143,6 +143,7 @@ export default function ContactClient() {
                   <MessageSquare size={20} className="text-green-600" />
                   <h3 className="font-outfit font-bold text-green-800 text-lg">WhatsApp</h3>
                 </div>
+
                 <p className="text-green-700 text-sm mb-3">Chat directly with our team for quick responses.</p>
                 <div className="inline-flex items-center gap-2 bg-[#25D366] text-white font-medium text-sm px-4 py-2 rounded-xl group-hover:bg-[#20bc5a] transition-colors">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">

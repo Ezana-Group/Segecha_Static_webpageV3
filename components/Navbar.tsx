@@ -258,7 +258,7 @@ export default function Navbar() {
                   Get Free Quote
                 </Link>
                 <a
-                  href="https://wa.me/254715385384"
+                  href="https://wa.me/254715385384?text=Hello%20Segecha%20Group%2C%20I%20have%20a%20logistics%20and%20transport%20inquiry.%20Can%20you%20help%20me%3F"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-full py-3 rounded-xl bg-[#25D366] hover:bg-[#20bc5a] text-white font-medium text-sm transition-colors"
@@ -268,6 +268,7 @@ export default function Navbar() {
                   </svg>
                   WhatsApp Us
                 </a>
+
               </div>
             </motion.div>
           </>

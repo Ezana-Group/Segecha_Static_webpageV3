@@ -140,7 +140,7 @@ export default function QuotePage() {
                     </div>
                   </a>
                   <a
-                    href="https://wa.me/254715385384"
+                    href="https://wa.me/254715385384?text=Hello%20Segecha%20Group%2C%20I%20would%20like%20to%20get%20a%20freight%20quote%20for%20shipping%20cargo."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-3 rounded-xl bg-green-50 hover:bg-green-100 border border-green-200 transition-all"
@@ -153,6 +153,7 @@ export default function QuotePage() {
                       <div className="font-medium text-green-700 text-sm">Chat on WhatsApp</div>
                     </div>
                   </a>
+
                 </div>
               </div>
 
